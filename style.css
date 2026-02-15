@@ -227,23 +227,25 @@ footer {
 /* ================= FLOATING WHATSAPP ================= */
 .whatsapp-float {
   position: fixed;
-  bottom: 22px;
-  right: 22px;
-  width: 62px;
-  height: 62px;
-  background: #25d366;
-  border-radius: 50%;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 50px;
   display: flex;
   align-items: center;
-  justify-content: center;
-  box-shadow: 0 12px 30px rgba(0,0,0,0.45);
-  z-index: 999;
-  animation: pulse 2s infinite;
+  gap: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  z-index: 1000;
 }
 
 .whatsapp-float img {
-  width: 34px;
+  width: 22px;
 }
+
 
 @keyframes pulse {
   0% { box-shadow: 0 0 0 0 rgba(37,211,102,0.7); }
